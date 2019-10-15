@@ -41,7 +41,11 @@ The dataset summarizes heterogeneous set of features about the articles publishe
   - Box Cox Transformation : This can be utlized only when we have values greater than 0 in our dataset. Since we had negative values in    our data set we tried adding constant to the value x in the column(x-1+min(value in that  column)) and later proceded with the box      cox transfrmation 
   - Yeo Johnson Transformation: This can be used for both positive and negative data.
    Since the accuracy of the base model was fairly the same for both the techniques we went ahead throught with Yeo Johnson Technique.
-
+   
+### Outliers
+- Most of the features contained outliers.
+- The Transformation technique takes care partially of the outlier treatment.
+- Further we cap the lower limit and upper limit outliers with the 1st percentile and 99th percentile values respectively.
 
 
 
