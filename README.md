@@ -22,8 +22,9 @@ Due to the increase in competition among the online news portals, Mashable has b
 ## Dataset Description 
 The dataset summarizes heterogeneous set of features about the articles published by Mashable between 2013 and 2015.
 - Number of Records : 39,643
-- Number of features : 60
-- Target column : 1
+- Number of features : 61
+- Target column : 1 
+We drop url and timedelta for further analysis since they are non predictive in nature.
 
 ## Insights obtained from the DataSet
 1. Keywords tends to attract many people towards reading the article. As the number of keywords in an article increases the shares as well increases.
@@ -48,6 +49,12 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 - Further we cap the lower limit and upper limit outliers with the 1st percentile and 99th percentile values respectively.
 ![Outliers](https://github.com/swebalaji/ML_Capstone_Project/blob/master/outliers.png)
 
+### Splitting the dataset
+- Based on the shares of our articles of we classify them into categories.
+- Models have been built with 2 categories as well as with 3 categories of our data.
+- The number of categories have been chosen using the K Means clustering technique.
+- We divide our data into three categories using the q cut function and creates a new column with the categories.
+- The categories 0, 1 ,2 correspond to less popular, popular and most popular articles in an online news portal.
 
 
 
