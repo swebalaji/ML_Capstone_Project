@@ -27,6 +27,9 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 
 We drop url and timedelta for further analysis since they are non predictive in nature.
 
+## Data Dictionary
+
+
 ## Insights obtained from the DataSet
 1. Keywords tends to attract many people towards reading the article. As the number of keywords in an article increases the shares as well increases.
 2. People tend to share the articles which are having decent amount of words in the title. People don’t appreciate short titles.
@@ -50,7 +53,7 @@ We drop url and timedelta for further analysis since they are non predictive in 
 - Further we cap the lower limit and upper limit outliers with the 1st percentile and 99th percentile values respectively.
 ![Outliers](https://github.com/swebalaji/ML_Capstone_Project/blob/master/outliers.png)
 
-### Splitting the dataset
+## Splitting the dataset
 - Based on the shares of our articles of we classify them into categories. 
   **This is the step for converting a regression problem into a classification problem**.
 - Models have been built with 2 categories as well as with 3 categories of our data.
@@ -59,6 +62,7 @@ We drop url and timedelta for further analysis since they are non predictive in 
    - The categories 0, 1 ,2 correspond to less popular, popular and most popular articles in an online news portal.
 - For binary classification Setting the threshold value greater than 1400 (no. of shares). 
   - The category 0 corresponds to non popular articles and 1 corresponds to popular articles.
+##
 
 
 
