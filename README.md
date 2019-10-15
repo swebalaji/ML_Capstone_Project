@@ -66,7 +66,7 @@ Below is a brief desrciption of the most important features in the data set:
    - The categories 0, 1 ,2 correspond to less popular, popular and most popular articles in an online news portal.
 - For binary classification Setting the threshold value greater than 1400 (no. of shares). 
   - The category 0 corresponds to non popular articles and 1 corresponds to popular articles.
-##
+## Reduction Techniques 
 
 
 
