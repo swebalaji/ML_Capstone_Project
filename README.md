@@ -33,7 +33,14 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 5. People tend to read a lot of articles on Tuesday and Wednesday because as the weekend approaches, they wish to do some leisure activities and relax may be like watching a movie.
 6. We can see that if the keywords in an article is good, we are getting high amount of shares also if the keywords are average in an article, we are getting average amount of shares and with worst keywords we are getting very less amount of shares.
 
+## Dealing with Skewness and Outliers
+### Skewness
+- Most of the features are right skewed. 
+- In order to deal with this,power transformation techniques imported from pre processing package was used.
 
+  - Box Cox Transformation : This can be utlized only when we have values greater than 0 in our dataset. Since we had negative values in    our data set we tried adding constant to the value x in the column(x-1+min(value in that  column)) and later proceded with the box      cox transfrmation 
+  - Yeo Johnson Transformation: This can be used for both positive and negative data.
+   Since the accuracy of the base model was fairly the same for both the techniques we went ahead throught with Yeo Johnson Technique.
 
 
 
