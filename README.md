@@ -56,7 +56,10 @@ We drop url and timedelta for further analysis since they are non predictive in 
 - Models have been built with 2 categories as well as with 3 categories of our data.
 - The number of categories have been chosen using the K Means clustering technique.
 - We divide our data into three categories using the q cut function and creates a new column with the categories.
-- The categories 0, 1 ,2 correspond to less popular, popular and most popular articles in an online news portal.
+   - The categories 0, 1 ,2 correspond to less popular, popular and most popular articles in an online news portal.
+- For binary classification Setting the threshold value greater than 1400 (no. of shares). 
+  - The category 0 corresponds to non popular articles and 1 corresponds to popular articles.
+
 
 
 
