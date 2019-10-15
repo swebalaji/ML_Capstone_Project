@@ -24,6 +24,7 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 - Number of Records : 39,643
 - Number of features : 61
 - Target column : 1 
+
 We drop url and timedelta for further analysis since they are non predictive in nature.
 
 ## Insights obtained from the DataSet
@@ -50,7 +51,8 @@ We drop url and timedelta for further analysis since they are non predictive in 
 ![Outliers](https://github.com/swebalaji/ML_Capstone_Project/blob/master/outliers.png)
 
 ### Splitting the dataset
-- Based on the shares of our articles of we classify them into categories.
+- Based on the shares of our articles of we classify them into categories. 
+  **This is the step for converting a regression problem into a classification problem**.
 - Models have been built with 2 categories as well as with 3 categories of our data.
 - The number of categories have been chosen using the K Means clustering technique.
 - We divide our data into three categories using the q cut function and creates a new column with the categories.
