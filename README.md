@@ -29,7 +29,7 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 We drop url and timedelta for further analysis since they are non predictive in nature.
 
 ## Data Dictionary
-Below is a brief desrciption of the features we use for our analysis:
+Below is a brief desrciption of the most important features in the data set:
 ![Feature 1]( https://github.com/swebalaji/ML_Capstone_Project/blob/master/feature1.png)
 
 ![Feature 2]( https://github.com/swebalaji/ML_Capstone_Project/blob/master/feature2.png)
