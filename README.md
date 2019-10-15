@@ -1,8 +1,26 @@
-## Welcome to GitHub Pages
+## Online News Popularity Prediction 
 
-You can use the [editor on GitHub](https://github.com/swebalaji/ML_Capstone_Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The Internet is an important tool for sharing messages. 
+A recent survey has shown that teenagers and adults read online news in their daily life.
+This percentage has increased a lot in the past few years.
+For reasons that more and more people read online news and editors want their news to be popular it would be meaningful to build a system to predict whether a news will be popular or not.
+Such system can  help editors find how they could improve their news but also can bring significant commercial value. Thus we chose the “online news popularity” data set for capstone project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Problem Statement
+Due to the increase in competition among the online news portals, Mashable has been facing a decrease in the number of shares of  its articles on social media which in turn has affected the advertisements featuring on its page.
+
+## Objective of this Project
+- To predict the popularity of news articles published by Mashable.com
+- To find which data channel gains more popularity.
+- To find which day the articles are more popular.
+
+## Dataset Description 
+The dataset summarizes heterogeneous set of features about the articles published by Mashable between 2013 and 2015.
+- Number of Records : 39,643
+- Number of features : 60
+- Target column : 1
+
+
 
 ### Markdown
 
