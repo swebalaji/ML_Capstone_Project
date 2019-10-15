@@ -7,7 +7,8 @@ For reasons that more and more people read online news and editors want their ne
 Such system can  help editors find how they could improve their news but also can bring significant commercial value. Thus we chose the “online news popularity” data set for capstone project.
 
 ## Process Flow in Online News Industry 
-Prior to step 2 in this below diagram its important to check if the article is going to be popular or not.
+Prior to step 2 in this below diagram its important to check if the article is going to be popular or not. 
+
 
 ![Process Flow](https://github.com/swebalaji/ML_Capstone_Project/blob/master/Process_Flow.png)
 
@@ -28,7 +29,10 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 We drop url and timedelta for further analysis since they are non predictive in nature.
 
 ## Data Dictionary
+Below is a brief desrciption of the features we use for our analysis:
+![Feature 1]( https://github.com/swebalaji/ML_Capstone_Project/blob/master/feature1.png)
 
+![Feature 2]( https://github.com/swebalaji/ML_Capstone_Project/blob/master/feature2.png)
 
 ## Insights obtained from the DataSet
 1. Keywords tends to attract many people towards reading the article. As the number of keywords in an article increases the shares as well increases.
