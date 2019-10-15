@@ -46,6 +46,7 @@ The dataset summarizes heterogeneous set of features about the articles publishe
 - Most of the features contained outliers.
 - The Transformation technique takes care partially of the outlier treatment.
 - Further we cap the lower limit and upper limit outliers with the 1st percentile and 99th percentile values respectively.
+![Outliers](https://github.com/swebalaji/ML_Capstone_Project/blob/master/outliers.png)
 
 
 
