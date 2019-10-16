@@ -66,7 +66,26 @@ Below is a brief desrciption of the most important features in the data set:
    - The categories 0, 1 ,2 correspond to less popular, popular and most popular articles in an online news portal.
 - For binary classification Setting the threshold value greater than 1400 (no. of shares). 
   - The category 0 corresponds to non popular articles and 1 corresponds to popular articles.
-## Reduction Techniques 
+## Dimensionality Reduction Techniques
+We tried using three dimensionality techniques for the above dataset to reduce overfitting.
+- Principal Component Analysis
+- ExtraTreeClassifier 
+- Recurrsive Feature Elimination 
+
+## Recommendations 
+- People are tending to read articles under the world category.Hence the best channel is world category.
+- People tend to read a lot of articles on Tuesday and Wednesday. Hence best day to publish an article is Tuesday and Wednesday.
+
+
+## References
+- http://cs229.stanford.edu/proj2015/328_report.pdf
+
+- https://www.semanticscholar.org/paper/The-Pulse-of-News-in-Social-Media%3A-Forecasting-Bandari-Asur/984d1f4522443f0ad6571d342c1b3088420fb4ec
+
+- https://www.semanticscholar.org/paper/From-popularity-prediction-to-ranking-online-news-Tatar-Antoniadis/1764b34574f36e8844a4c35bd387b4eb17cced4c
+
+
+
 
 
 
