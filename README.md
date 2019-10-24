@@ -10,7 +10,7 @@ Such system can  help editors find how they could improve their news but also ca
 Prior to step 2 in this below diagram its important to check if the article is going to be popular or not. 
 
 
-![Process Flow](https://github.com/swebalaji/ML_Capstone_Project/blob/master/Process_Flow.png)
+![Process Flow](https://github.com/swebalaji/ML_Capstone_Project/raw/master/Process_Flow.png)
 
 ## Problem Statement
 Due to the increase in competition among the online news portals, Mashable has been facing a decrease in the number of shares of  its articles on social media which in turn has affected the advertisements featuring on its page.
